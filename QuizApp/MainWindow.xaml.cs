@@ -24,5 +24,17 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btnlogin_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.MainWindow.Width = Width * 2;
+            Application.Current.MainWindow.Height = Height * 2;
+            
+        }
     }
 }
