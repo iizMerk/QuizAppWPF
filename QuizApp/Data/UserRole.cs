@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace QuizApp
 {
-    class Database: DbContext
+    public enum UserRole
     {
-        public DbSet<User> Users { get; set; }
-        
+        Dipendent=0,
+        Admin=1
     }
 }

@@ -19,3 +19,4 @@ C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\QuizApp.Properties.Resou
 C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\QuizApp.csproj.GenerateResource.Cache
 C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\QuizApp.exe
 C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\QuizApp.pdb
+C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\MainPage.g.cs
