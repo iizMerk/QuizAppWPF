@@ -1,0 +1,2 @@
+c:\users\merk\documents\visual studio 2015\Projects\QuizApp\QuizApp\bin\Debug\QuizApp.exe.config
+C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\bin\Debug\QuizApp.exe.config
