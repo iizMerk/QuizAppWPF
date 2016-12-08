@@ -24,7 +24,6 @@ namespace QuizApp
             InitializeComponent();
 
         }
-
         public void Login(string Username, string Password)
         {
             using (var db = new Database())

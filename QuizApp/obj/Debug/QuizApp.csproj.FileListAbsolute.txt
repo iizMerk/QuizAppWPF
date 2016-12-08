@@ -39,3 +39,7 @@ C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\AdminWindow.g.cs
 C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\QuizWindow.g.cs
 C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\AdminWindow.baml
 C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\QuizWindow.baml
+C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\AdminWindow.g.cs
+C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\QuizWindow.g.cs
+C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\AdminWindow.baml
+C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\QuizWindow.baml
