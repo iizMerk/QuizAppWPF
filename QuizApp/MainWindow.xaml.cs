@@ -22,7 +22,7 @@ namespace QuizApp
         public MainWindow()
         {
             InitializeComponent();
-
+            CheckDatabase();
         }
         public void Login(string Username, string Password)
         {
@@ -36,7 +36,7 @@ namespace QuizApp
                     var user = query.SingleOrDefault();
                     if (user.UserRole == UserRole.Admin)
                     {
-                        var AdminWindows = new AdminWindow(); 
+                        var AdminWindows = new AdminWindow();
                         this.Hide();
                         AdminWindows.Show();
                     }
@@ -56,6 +56,32 @@ namespace QuizApp
             }
         }
 
+        public void CheckDatabase()
+        {
+            using (var db = new Database())
+            {
+                if (!db.Users.Any())
+                {
+                    var user = new User
+                    {
+                        Username = "AdminUser",
+                        Password = "adminadmin",
+                        UserRole = UserRole.Admin
+                    };
+
+                    var dipendent = new User
+                    {
+                        Username = "DipendentUser",
+                        Password = "dipendent",
+                        UserRole = UserRole.Dipendent
+                    };
+                    db.Users.Add(dipendent);
+                    db.Users.Add(user);
+                    db.SaveChanges();
+                }
+            }
+        }
+
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
@@ -63,9 +89,7 @@ namespace QuizApp
 
         private void btnlogin_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.MainWindow.Width = Width * 2;
-            Application.Current.MainWindow.Height = Height * 2;
-            
+            Login(txtusername.Text, txtpass.Text);
         }
     }
 }

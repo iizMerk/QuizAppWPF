@@ -10,6 +10,7 @@ namespace QuizApp
     class Database: DbContext
     {
         public DbSet<User> Users { get; set; }
-        
+
+        public Database() : base("name=Connection") { }
     }
 }
