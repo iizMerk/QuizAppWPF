@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 namespace QuizApp
 {
     /// <summary>
@@ -23,6 +22,39 @@ namespace QuizApp
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        public void Login(string Username, string Password)
+        {
+            using (var db = new Database())
+            {
+                var query = from p in db.Users
+                            where p.Username == Username && p.Password == Password
+                            select p;
+                if (query.Any())
+                {
+                    var user = query.SingleOrDefault();
+                    if (user.UserRole == UserRole.Admin)
+                    {
+                        var AdminWindows = new AdminWindow(); 
+                        this.Hide();
+                        AdminWindows.Show();
+                    }
+                    else
+                    {
+                        var QuizWindows = new QuizWindow();
+                        this.Hide();
+                        QuizWindows.Show();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Your Password or Username Are incorrect");
+                    Username = "";
+                    Password = "";
+                }
+            }
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)

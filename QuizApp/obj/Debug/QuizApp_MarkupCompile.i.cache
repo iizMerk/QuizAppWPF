@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\
+C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\obj\Debug\
 QuizApp
 none
 false
 DEBUG;TRACE
-C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\App.xaml
-11151548125
+C:\Users\Merk\Source\Repos\QuizAppWPF\QuizApp\App.xaml
+3-608842947
 
-151106951357
-16-1909353127
-MainWindow.xaml;
+17-52056055
+161076633246
+AdminWindow.xaml;MainWindow.xaml;QuizWindow.xaml;
 
-True
+False
 
