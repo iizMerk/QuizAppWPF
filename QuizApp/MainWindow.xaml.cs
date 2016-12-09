@@ -89,7 +89,7 @@ namespace QuizApp
 
         private void btnlogin_Click(object sender, RoutedEventArgs e)
         {
-            Login(txtusername.Text, txtpassword.Password);
+            Login(txtusername.Text, txtpassword.Password.ToString());
         }
     }
 }
