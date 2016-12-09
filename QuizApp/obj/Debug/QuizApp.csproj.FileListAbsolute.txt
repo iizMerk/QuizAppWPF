@@ -43,3 +43,5 @@ C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\AdminWindow.g.cs
 C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\QuizWindow.g.cs
 C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\AdminWindow.baml
 C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\QuizWindow.baml
+C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\UserControl1.g.cs
+C:\Users\Aurelio\Desktop\ciao\QuizAppWPF\QuizApp\obj\Debug\UserControl1.baml
